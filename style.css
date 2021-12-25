@@ -10,3 +10,68 @@ html {
   }
 
 
+  .banner h1{
+    color: goldenrod;
+    size: 100px;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+    animation-name: slidein;
+    animation-duration: 2s;
+
+
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+p {
+    color: black;
+    size: 12px;
+    font-family: 'Shadows in the Dark', sans-serif;
+}
+
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 0;
+  font-size: 14px;
+  font-weight: 900;
+  font-family: 'Shadow in the Dark';
+}
+
+
+.header li {
+  display: inline-block;
+  padding: 10px;
+  font-family: 'Shadow in the Dark';
+}
+
+.banner {
+  margin-top: 74px;
+  padding: 40px 0 750px 0;
+  background-color: #4D00FF;
+  font-family: 'Shadow in the Dark';
+}
+
+.banner p {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  color: #ffffff;
+  font-weight: lighter;
+  word-spacing: 0.25em;
+  line-height: 1.4;
+  font-family: 'Shadow in the Dark';
+  font-size: 50px;
+}
