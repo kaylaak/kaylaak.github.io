@@ -5,22 +5,33 @@ html {
 
 
   body {
-    background-color:rgb(209, 203, 193);
+    background-color:rgb(246,199,	143);
     text-align: center;  
   }
 
+img{
 
-  .banner h1{
-    color: goldenrod;
-    size: 100px;
+  text-align: left; 
+  position: fixed; 
+  width: 1% ;
+
+}
+#left {    
+  text-align: left;  
+  }  
+ 
+
+  h1{
+    color: rgb(204, 85, 0);
+    font-size: 60px;
     font-family: 'Cabin', sans-serif;
     text-align: center;
-    letter-spacing: 0.1em;
     animation-name: slidein;
     animation-duration: 2s;
 
 
   }
+
 
   @keyframes slidein {
     from {
@@ -35,34 +46,61 @@ html {
   }
 
 p {
-    color: black;
-    size: 12px;
-    font-family: 'Shadows in the Dark', sans-serif;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+}
+
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: maroon;
 }
 
 
 .header {
-  position: fixed;
-  top: 0;
+  position: static;
   width: 100%;
   padding: 20px 0;
   font-size: 14px;
   font-weight: 900;
   font-family: 'Shadow in the Dark';
+  text-align: center;
 }
 
 
 .header li {
   display: inline-block;
+  font-size: 15px;
+  font-family: 'Cabin';
+  text-align: center;
   padding: 10px;
-  font-family: 'Shadow in the Dark';
+
 }
 
 .banner {
-  margin-top: 74px;
-  padding: 40px 0 750px 0;
-  background-color: #4D00FF;
+  margin-top: 75px;
+  padding: 40px 0 175px 0;
+  background-color: rgb(204, 85, 0);
   font-family: 'Shadow in the Dark';
+}
+
+.banner h1{
+
+  color: white;
+    font-size: 60px;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    animation-name: slidein;
+    animation-duration: 2s;
+    padding: 10px;
+
+
+
 }
 
 .banner p {
@@ -72,6 +110,8 @@ p {
   font-weight: lighter;
   word-spacing: 0.25em;
   line-height: 1.4;
-  font-family: 'Shadow in the Dark';
-  font-size: 50px;
+  font-family: 'Cabin';
+  font-size: 23px;
+  text-align: left;
+  padding: 20px;
 }
