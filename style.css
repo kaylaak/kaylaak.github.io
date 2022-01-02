@@ -91,10 +91,41 @@ a:visited {
 
 .banner {
   margin-top: 75px;
-  padding: 40px 0 175px 0;
+  padding: 40px 175px ;
   background-color: rgb(204, 85, 0);
   font-family: 'Cabin';
 }
+
+.projectsB{
+  margin-top: 150px;
+  padding: 20px 20px ;
+  background-color: rgb(204, 85, 0);
+  font-family: 'Cabin';
+}
+
+
+.projectsP{
+  padding: 30px 30px ;
+  background-color: rgb(204, 85, 0);
+  font-family: 'Cabin';
+}
+
+
+.projectsB h1{
+
+  color: white;
+    font-size: 60px;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    animation-name: slidein;
+    animation-duration: 3s;
+    padding: 60px;
+    border-bottom: 10px solid #fff;
+
+
+
+}
+
 
 .banner h1{
 
@@ -111,6 +142,32 @@ a:visited {
 }
 
 .banner p {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  color: #ffffff;
+  font-weight: lighter;
+  word-spacing: 0.25em;
+  line-height: 1.4;
+  font-family: 'Cabin';
+  font-size: 23px;
+  text-align: left;
+  padding: 20px;
+}
+
+
+.projectsP h1{
+
+  color: white;
+    font-size: 60px;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    animation-name: slidein;
+    animation-duration: 3s;
+    padding: 3px;
+    
+}
+
+.projectsP p {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   color: #ffffff;
