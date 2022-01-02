@@ -96,21 +96,24 @@ a:visited {
   font-family: 'Cabin';
 }
 
+/*States project*/
+
 .projectsB{
-  margin-top: 150px;
-  padding: 20px 20px ;
+  margin-top: 200px;
+  padding: 50px ;
   background-color: rgb(204, 85, 0);
   font-family: 'Cabin';
 }
 
-
+/*The type of projects*/
 .projectsP{
-  padding: 30px 30px ;
+  padding: 10px 10px ;
   background-color: rgb(204, 85, 0);
   font-family: 'Cabin';
 }
 
 
+/*PROJECTS*/
 .projectsB h1{
 
   color: white;
@@ -126,6 +129,7 @@ a:visited {
 
 }
 
+/*All the other Header texts not including Projects*/
 
 .banner h1{
 
@@ -135,12 +139,13 @@ a:visited {
     text-align: center;
     animation-name: slidein;
     animation-duration: 3s;
-    padding: 10px;
+    padding: 20px;
 
 
 
 }
 
+/*all paragraph texts not in projects*/
 .banner p {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
@@ -151,7 +156,7 @@ a:visited {
   font-family: 'Cabin';
   font-size: 23px;
   text-align: left;
-  padding: 20px;
+  padding: 50px;
 }
 
 
@@ -163,7 +168,7 @@ a:visited {
     text-align: center;
     animation-name: slidein;
     animation-duration: 3s;
-    padding: 3px;
+    padding: 50px;
     
 }
 
@@ -177,5 +182,5 @@ a:visited {
   font-family: 'Cabin';
   font-size: 23px;
   text-align: left;
-  padding: 20px;
+  padding: 50px;
 }
